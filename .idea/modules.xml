@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/maskice.hr.iml" filepath="$PROJECT_DIR$/maskice.hr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maskice.hr-Android-App-Rewrite.iml" filepath="$PROJECT_DIR$/maskice.hr-Android-App-Rewrite.iml" />
     </modules>
   </component>
 </project>
