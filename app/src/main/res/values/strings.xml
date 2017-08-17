@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">maskice.hr</string>
+    <string name="drawer_open">otvori</string>
+    <string name="drawer_close">zatvori</string>
+    <string name="pocetno">Naslovnica</string>
+    <string name="mobitel">Oprema za mobitel</string>
+    <string name="tablet">Oprema za tablet</string>
+    <string name="ostdrefer">Obavijesti studentske referade</string>
+    <string name="rsp">Raspored sati</string>
+    <string name="odj">Odjava</string>
+    <string name="oaplk">O aplikaciji</string>
+    <string name="refresh">Osvježi stranicu</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
