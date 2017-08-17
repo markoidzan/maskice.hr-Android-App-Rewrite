@@ -7,9 +7,13 @@
     <string name="pocetno">Naslovnica</string>
     <string name="mobitel">Oprema za mobitel</string>
     <string name="tablet">Oprema za tablet</string>
-    <string name="ostdrefer">Obavijesti studentske referade</string>
-    <string name="rsp">Raspored sati</string>
-    <string name="odj">Odjava</string>
+    <string name="punjac_drzac">Držači i punjači</string>
+    <string name="slusalice_zvucnik">Slušalice i zvučnici</string>
+    <string name="kamera">Kamere</string>
+    <string name="vr">VR Naočale</string>
+    <string name="dron">Dronovi</string>
+    <string name="rac_oprema">Računalna periferija</string>
+    <string name="gadget">Gadgeti</string>
     <string name="oaplk">O aplikaciji</string>
     <string name="refresh">Osvježi stranicu</string>
 
