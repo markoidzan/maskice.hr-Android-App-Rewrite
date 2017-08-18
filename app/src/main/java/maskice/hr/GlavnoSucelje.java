@@ -92,9 +92,37 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = Kamere.class;
                 break;
+            case R.id.drone:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = Dronovi.class;
+                break;
             case R.id.vr_naoc:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = VrNaocale.class;
+                break;
+            case R.id.gadgets:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = Gadgeti.class;
+                break;
+            case R.id.pc_perif:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = RacunalnaPeriferija.class;
+                break;
+            case R.id.other:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = OstalaOprema.class;
+                break;
+            case R.id.about_us:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = AboutUs.class;
+                break;
+            case R.id.veleprodaja:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = Veleprodaja.class;
+                break;
+            case R.id.prod_mjesta:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = ProdajnaMjesta.class;
                 break;
         }
 
