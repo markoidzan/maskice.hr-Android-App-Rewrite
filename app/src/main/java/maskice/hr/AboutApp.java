@@ -20,7 +20,7 @@ public class AboutApp extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.mojevijesti, container, false);
+        View rootView = inflater.inflate(R.layout.masterweblayout, container, false);
 
 
         final WebView webStranica;
