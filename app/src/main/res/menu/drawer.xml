@@ -19,17 +19,17 @@
         <item
             android:id="@+id/studrefer"
             android:checked="true"
-            android:title="@string/ostdrefer"
+            android:title="@string/punjac_drzac"
             android:icon="@drawable/studentske_referada"/>
         <item
             android:id="@+id/rspst"
             android:checked="true"
-            android:title="@string/rsp"
+            android:title="@string/kamera"
             android:icon="@drawable/raspored"/>
         <item
             android:id="@+id/odv"
             android:checked="true"
-            android:title="@string/odj"
+            android:title="@string/slusalice_zvucnik"
             android:icon="@drawable/odjava"/>
         <item
             android:id="@+id/aplabt"
