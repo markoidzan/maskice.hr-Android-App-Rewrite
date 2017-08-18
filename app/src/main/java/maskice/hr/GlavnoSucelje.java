@@ -2,7 +2,6 @@ package maskice.hr;
 
 
 import android.os.PersistableBundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -69,19 +68,34 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = MasterWebSite.class;
                 break;
+            case R.id.kosarica:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = Kosarica.class;
+                break;
             case R.id.mobitel:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = Mobitel.class;
                 break;
             case R.id.tablet:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = Mobitel.class;
+                fragmentClass = Tablet.class;
                 break;
-            case R.id.aplabt:
+            case R.id.drzac_punjac:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = AboutApp.class;
+                fragmentClass = DrzaciPunjaci.class;
                 break;
-
+            case R.id.slus:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = SlusaliceZvucnici.class;
+                break;
+            case R.id.kamere:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = Kamere.class;
+                break;
+            case R.id.vr_naoc:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = VrNaocale.class;
+                break;
         }
 
         try {

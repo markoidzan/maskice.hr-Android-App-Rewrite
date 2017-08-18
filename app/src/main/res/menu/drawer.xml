@@ -4,37 +4,63 @@
         <item
             android:id="@+id/pocetno"
             android:checked="true"
-            android:title="@string/pocetno"
-            android:icon="@drawable/vijesti"/>
+            android:title="@string/pocetno"/>
+        <item
+            android:id="@+id/kosarica"
+            android:title="@string/checkout"
+            android:checked="true"/>
         <item
             android:id="@+id/mobitel"
             android:checked="true"
-            android:title="@string/mobitel"
-            android:icon="@drawable/predmeti"/>
+            android:title="@string/mobitel"/>
         <item
             android:id="@+id/tablet"
             android:checked="true"
-            android:title="@string/tablet"
-            android:icon="@drawable/studentske_opce"/>
+            android:title="@string/tablet"/>
         <item
-            android:id="@+id/studrefer"
+            android:id="@+id/drzac_punjac"
             android:checked="true"
-            android:title="@string/punjac_drzac"
-            android:icon="@drawable/studentske_referada"/>
+            android:title="@string/punjac_drzac"/>
         <item
-            android:id="@+id/rspst"
+            android:id="@+id/kamere"
             android:checked="true"
-            android:title="@string/kamera"
-            android:icon="@drawable/raspored"/>
+            android:title="@string/kamera"/>
         <item
-            android:id="@+id/odv"
+            android:id="@+id/slus"
             android:checked="true"
-            android:title="@string/slusalice_zvucnik"
-            android:icon="@drawable/odjava"/>
+            android:title="@string/slusalice_zvucnik"/>
         <item
-            android:id="@+id/aplabt"
-            android:title="@string/oaplk"
+            android:id="@+id/vr_naoc"
             android:checked="true"
-            android:icon="@drawable/aplikacija"/>
+            android:title="@string/vr"/>
+        <item
+            android:id="@+id/drone"
+            android:title="@string/dron"
+            android:checked="true"/>
+        <item
+            android:id="@+id/gadgets"
+            android:title="@string/gadget"
+            android:checked="true"/>
+        <item
+            android:id="@+id/pc_perif"
+            android:title="@string/rac_oprema"
+            android:checked="true"/>
+        <item
+            android:id="@+id/other"
+            android:title="@string/othr"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/about_us"
+            android:title="@string/about"
+            android:checked="true"/>
+        <item
+            android:id="@+id/prod_mjesta"
+            android:title="@string/poslovn"
+            android:checked="true"/>
+        <item
+            android:id="@+id/veleprodaja"
+            android:title="@string/velepro"
+            android:checked="true" />
     </group>
 </menu>

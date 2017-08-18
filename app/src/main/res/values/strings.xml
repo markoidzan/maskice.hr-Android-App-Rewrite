@@ -14,6 +14,11 @@
     <string name="dron">Dronovi</string>
     <string name="rac_oprema">Računalna periferija</string>
     <string name="gadget">Gadgeti</string>
+    <string name="about">O nama</string>
+    <string name="poslovn">Prodajna mjesta</string>
+    <string name="velepro">Veleprodaja</string>
+    <string name="othr">Ostala oprema</string>
+    <string name="checkout">Košarica</string>
     <string name="oaplk">O aplikaciji</string>
     <string name="refresh">Osvježi stranicu</string>
 
