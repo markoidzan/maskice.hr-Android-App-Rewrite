@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -15,10 +14,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
 import android.widget.ProgressBar;
-
-import java.io.InputStream;
 
 /**
  * Created by marko on 16.8.2017..
@@ -28,7 +24,6 @@ public class MasterWebSite extends Fragment {
 
 
     private ProgressBar progressBar;
-
 
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -57,19 +52,14 @@ public class MasterWebSite extends Fragment {
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                /*if (Uri.parse(url).getHost().contains("maskice.hr")) {
-                    return false;
-                }*/
                 if ((url.startsWith("http:") || url.startsWith("https:")) && Uri.parse(url).getHost().contains("maskice.hr")) {
                     return false;
-                }
-                else if (url.startsWith("tel:")) {
+                } else if (url.startsWith("tel:")) {
                     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
                     startActivity(intent);
                     view.reload();
                     return true;
-                }
-                else if (url.startsWith("mailto:")) {
+                } else if (url.startsWith("mailto:")) {
                     Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     view.getContext().startActivity(intent1);
                 }
@@ -81,15 +71,6 @@ public class MasterWebSite extends Fragment {
 
         });
 
-        /*Button button = null;
-        button = (Button)button.findViewById(R.id.refr_button);
-
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick (View v) {
-                webStranica.reload();
-            }
-        });*/
         webStranica.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
@@ -116,13 +97,6 @@ public class MasterWebSite extends Fragment {
         webStranica.loadUrl("https://maskice.hr");
 
 
-        /*button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                webStranica.reload();
-            }
-        });*/
-
         webStranica.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
@@ -142,12 +116,9 @@ public class MasterWebSite extends Fragment {
         });
 
 
-
-
         return rootView;
 
     }
-
 
 
 }

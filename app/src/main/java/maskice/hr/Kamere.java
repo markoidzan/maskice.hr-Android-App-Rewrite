@@ -26,7 +26,6 @@ public class Kamere extends Fragment {
     private ProgressBar progressBar;
 
 
-
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -53,19 +52,15 @@ public class Kamere extends Fragment {
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                /*if (Uri.parse(url).getHost().contains("maskice.hr")) {
-                    return false;
-                }*/
+
                 if ((url.startsWith("http:") || url.startsWith("https:")) && Uri.parse(url).getHost().contains("maskice.hr")) {
                     return false;
-                }
-                else if (url.startsWith("tel:")) {
+                } else if (url.startsWith("tel:")) {
                     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
                     startActivity(intent);
                     view.reload();
                     return true;
-                }
-                else if (url.startsWith("mailto:")) {
+                } else if (url.startsWith("mailto:")) {
                     Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     view.getContext().startActivity(intent1);
                 }
@@ -77,15 +72,6 @@ public class Kamere extends Fragment {
 
         });
 
-        /*Button button = null;
-        button = (Button)button.findViewById(R.id.refr_button);
-
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick (View v) {
-                webStranica.reload();
-            }
-        });*/
         webStranica.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
@@ -112,13 +98,6 @@ public class Kamere extends Fragment {
         webStranica.loadUrl("https://maskice.hr/kategorija-proizvoda/kamere/");
 
 
-        /*button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                webStranica.reload();
-            }
-        });*/
-
         webStranica.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
@@ -138,12 +117,9 @@ public class Kamere extends Fragment {
         });
 
 
-
-
         return rootView;
 
     }
-
 
 
 }

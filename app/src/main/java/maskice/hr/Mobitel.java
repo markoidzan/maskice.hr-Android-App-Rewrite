@@ -1,5 +1,6 @@
 package maskice.hr;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -24,6 +25,7 @@ public class Mobitel extends Fragment {
     private ProgressBar progressBar;
 
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.masterweblayout, container, false);
@@ -50,19 +52,15 @@ public class Mobitel extends Fragment {
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                /*if (Uri.parse(url).getHost().contains("maskice.hr")) {
-                    return false;
-                }*/
+
                 if ((url.startsWith("http:") || url.startsWith("https:")) && Uri.parse(url).getHost().contains("maskice.hr")) {
                     return false;
-                }
-                else if (url.startsWith("tel:")) {
+                } else if (url.startsWith("tel:")) {
                     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
                     startActivity(intent);
                     view.reload();
                     return true;
-                }
-                else if (url.startsWith("mailto:")) {
+                } else if (url.startsWith("mailto:")) {
                     Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     view.getContext().startActivity(intent1);
                 }

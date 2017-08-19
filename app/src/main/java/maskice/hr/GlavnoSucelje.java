@@ -1,24 +1,18 @@
 package maskice.hr;
 
 
+import android.content.res.Configuration;
+import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-
-import android.content.res.Configuration;
-import android.os.Bundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-
 import android.view.MenuItem;
-import android.view.View;
-
-import maskice.hr.R;
 
 
 public class GlavnoSucelje extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,7 +35,7 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close);
         drawerToggle.syncState();
 
-        mSelectedId = savedInstanceState ==null ? R.id.pocetno : savedInstanceState.getInt("SELECTED_ID");
+        mSelectedId = savedInstanceState == null ? R.id.pocetno : savedInstanceState.getInt("SELECTED_ID");
         selectItem(mSelectedId);
 
     }
@@ -146,7 +140,7 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
     @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         menuItem.setChecked(true);
-        mSelectedId=menuItem.getItemId();
+        mSelectedId = menuItem.getItemId();
         selectItem(mSelectedId);
         return true;
     }
