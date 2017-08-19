@@ -53,11 +53,24 @@ public class OstalaOprema extends Fragment {
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (Uri.parse(url).getHost().contains("maskice.hr")) {
+                /*if (Uri.parse(url).getHost().contains("maskice.hr")) {
+                    return false;
+                }*/
+                if ((url.startsWith("http:") || url.startsWith("https:")) && Uri.parse(url).getHost().contains("maskice.hr")) {
                     return false;
                 }
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                view.getContext().startActivity(intent);
+                else if (url.startsWith("tel:")) {
+                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
+                    startActivity(intent);
+                    view.reload();
+                    return true;
+                }
+                else if (url.startsWith("mailto:")) {
+                    Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    view.getContext().startActivity(intent1);
+                }
+                Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                view.getContext().startActivity(intent2);
                 return true;
             }
 
