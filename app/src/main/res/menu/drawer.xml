@@ -49,7 +49,6 @@
             android:id="@+id/other"
             android:title="@string/othr"
             android:checked="true"/>
-
         <item
             android:id="@+id/about_us"
             android:title="@string/about"
@@ -62,5 +61,9 @@
             android:id="@+id/veleprodaja"
             android:title="@string/velepro"
             android:checked="true" />
+        <item
+            android:id="@+id/about_app"
+            android:title="@string/oaplk"
+            android:checked="true"/>
     </group>
 </menu>

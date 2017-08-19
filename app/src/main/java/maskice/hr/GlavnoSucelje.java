@@ -118,6 +118,10 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = ProdajnaMjesta.class;
                 break;
+            case R.id.about_app:
+                drawerLayout.closeDrawer(GravityCompat.START);
+                fragmentClass = AboutApp.class;
+                break;
         }
 
         try {
