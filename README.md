@@ -6,6 +6,8 @@ Službena Android aplikacija za maskice.hr web shop.
 # Download link
 
 Play Store - Soon™ (Roll out je u tijeku)
+Amazon App Store - Soon™ (Roll out je u tijeku)
+Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=745425885120756894
 
 ## Tehnologije korištene za izradu aplikacije
 
