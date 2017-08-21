@@ -2,22 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\7466b9a8e56c5170260bb2b34803877ff1851c28\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="aae322c38e1a5aa1e6b8a0ba401cd6d6e8cd4f6f">
-        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_517c3415b30bae2038b2bd43246aad89bf336915\classes.dex" />
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_1c13d3b1defcb8d1149e2e459df71163eb605702.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\88ab7304ba1e58ca8888a6a046be8b0743b68d35\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fca6667350fca180e2f9a0aeb64d7835c10e93b9\classes.dex" />
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_8f41d7bbe61d6cc9be96af111234fb8fc5efcbb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\59669dc81dd71818d750367e93c235b6238c6ec6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_855b362a7acfd35402868c8ab66aa293a0bd5e32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\df4b93a67c50797f915d66aef225572c86cd983a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_c6a546c3cc03323296ce58ae1c1da0f955f74a30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\6511a26c3cf412634453fc767549231980b2e7f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_69ba6c33049533dbbea079526ed2e592396d3088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\e8622376630acabc0cb01186d1a4c9e5102f9cd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_0eb084e1a8a91e3e46509d9111df04721fe44bcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.2_b88fe0bc7f516e41e6fb39362cc77502bda72098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\f55915f8785004b34a8a8fc6837c95f09a777a10\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_de17912d2616391d76c42cc0e65203e8c5571059.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\support-annotations-25.3.0_b5b3ac1682e696e877807b737f495f41fc0491b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\7dfe56801cd41956caaaa5de01f6b9cf4964b2ec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_0ce92fce3af3141d108895974fa32e038d4c507c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\79f9f8b4d473331611632f2326d93e31aa049fec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_62744074e810a3387be33a7f32202945d3262124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\4e0687f81a0c32173a22806624902f0af246fd58\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_aef3d441b42bb9319a8fddac98ef0b1d9891ab4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\32ee0b38e9a127e6624422f4f441eeb81116ac30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_39e7c5f4678947eff9e3185fd601dbaa950c430c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\4c9589fb35e269b7f1f1d27a77576abcd8cfe32d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_db736fe3e286e645dbb1d46f3c65ca23a5d3822d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.android\build-cache\322720a90d8b4a5798874d73c33d612851861ee8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\pre-dexed\release\classes_c9e2447e785a9c9f505b0a6a48dfe26ad276c629.jar" />
     </item>
 
 </items>
