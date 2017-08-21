@@ -14,7 +14,7 @@ Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=74542
 ## Tehnologije korištene za izradu aplikacije
 
 * Java
-* JavaScript (za XSS uređenje weba kad neće učitavati extrenal CSS file)
+* JavaScript (za XSS uređenje weba)
 
 
 ## Minimalni zahtjevi (na dan 16.08.2017.)
