@@ -5,7 +5,7 @@ Službena Android aplikacija za maskice.hr web shop.
 
 # Download link
 
-Play Store - Soon™ (Roll out je u tijeku)
+Play Store - https://play.google.com/store/apps/details?id=maskice.hr
 
 Amazon App Store - Soon™ (Roll out je u tijeku)
 
