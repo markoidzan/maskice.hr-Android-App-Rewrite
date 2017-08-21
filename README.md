@@ -22,5 +22,14 @@ Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=74542
 * Android 5.0 i noviji
 * MDPI rezolucija ekrana (320 x 480 px)
 
+## Testirani uređaji i Android OS verzije
+
+* Huawei P9 Lite VNS-L31 - Android 7.0
+* Samsung Galaxy S8 - Android 7.0
+* Google Pixel XL (emulated) - Android O Dev Release
+* Google Pixel XL (emulated) - Android 7.0
+* LG Nexus 5X (emulated) - Android 6.0
+* Doogee Y100 Pro - Android 5.1
+
 
 Copyright &copy; 2017 by Marko Idžan &amp; maskice.hr
