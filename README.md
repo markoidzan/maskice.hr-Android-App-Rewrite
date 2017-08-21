@@ -25,6 +25,7 @@ Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=74542
 ## Testirani uređaji i Android OS verzije
 
 * Huawei P9 Lite VNS-L31 - Android 7.0
+* Huawei P10 VTR-L09 - Android 7.0
 * Samsung Galaxy S8 - Android 7.0
 * Google Pixel XL (emulated) - Android O Dev Release
 * Google Pixel XL (emulated) - Android 7.0
