@@ -1,11 +1,11 @@
 maskice.hr Android Aplikacija
 ======================
 
-Android aplikacija za maskice.hr web shop. 
+Službena Android aplikacija za maskice.hr web shop.
 
 # Download link
 
-Play Store - Soon™
+Play Store - Soon™ (Roll out je u tijeku)
 
 ## Tehnologije korištene za izradu aplikacije
 
@@ -19,4 +19,4 @@ Play Store - Soon™
 * MDPI rezolucija ekrana (320 x 480 px)
 
 
-Copyright &copy; 2017 by Marko Idžan
+Copyright &copy; 2017 by Marko Idžan &amp; maskice.hr
