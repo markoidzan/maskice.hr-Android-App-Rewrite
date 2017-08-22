@@ -29,7 +29,7 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 ## Testirani uređaji i Android OS verzije
 
 * Huawei P9 Lite VNS-L31 - Android 7.0
-* Huawei P10 VTR-L09 - Android 7.0
+* Huawei P10 VTR-L29 - Android 7.0
 * Samsung Galaxy S8 - Android 7.0
 * LG G2 mini D620r - Android 6.0
 * LG Spirit H440N - Android 6.0
