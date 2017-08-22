@@ -11,6 +11,10 @@ Amazon App Store - Soon™ (Roll out je u tijeku)
 
 Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=745425885120756894
 
+## Istaknuto i na xda-developers forumu
+
+https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobile-t3660425
+
 ## Tehnologije korištene za izradu aplikacije
 
 * Java
