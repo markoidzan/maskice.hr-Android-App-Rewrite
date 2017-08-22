@@ -33,6 +33,7 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 * Samsung Galaxy S8 - Android 7.0
 * LG G2 mini D620r - Android 6.0
 * LG Spirit H440N - Android 6.0
+* Lenovo A Plus A1010a20 - Android 5.1
 * Doogee Y100 Pro - Android 5.1
 * Google Pixel XL (emulated) - Android O Dev Release
 * Google Pixel XL (emulated) - Android 7.0
