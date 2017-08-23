@@ -36,6 +36,7 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 * Samsung Galaxy J3 (2016) - Android 5.1
 * Lenovo A Plus A1010a20 - Android 5.1
 * Doogee Y100 Pro - Android 5.1
+* Samsung Galaxy Grand Prime G530FZ - Android 5.0
 * Google Pixel XL (emulated) - Android O Dev Release
 * Google Pixel XL (emulated) - Android 7.0
 * LG Nexus 5X (emulated) - Android 6.0
