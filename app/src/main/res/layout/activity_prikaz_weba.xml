@@ -7,7 +7,9 @@
     tools:context="maskice.hr.GlavnoSucelje"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+    <include layout="@layout/fragment_container" />
+
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -21,7 +23,7 @@
             android:id="@+id/content_frame">
         </FrameLayout>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
