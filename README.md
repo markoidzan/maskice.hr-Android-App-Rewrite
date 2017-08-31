@@ -9,6 +9,8 @@ Play Store - https://play.google.com/store/apps/details?id=maskice.hr
 
 Amazon App Store - http://amzn.to/2xcnIPw
 
+Aptoide Store - http://bit.ly/2wKx8o4
+
 Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=745425885120756894
 
 ## Istaknuto i na xda-developers forumu
