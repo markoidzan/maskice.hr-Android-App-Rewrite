@@ -14,7 +14,8 @@
         <activity
             android:name=".GlavnoSucelje"
             android:label="@string/app_name"
-            android:theme="@style/maskiceStyle" >
+            android:theme="@style/maskiceStyle"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
