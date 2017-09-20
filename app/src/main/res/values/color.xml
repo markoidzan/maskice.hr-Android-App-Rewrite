@@ -3,4 +3,6 @@
     <color name="primaryColor">#ffd000</color>
     <color name="primaryColorDark">#ffd000</color>
     <color name="progressBarColor">#3ac1ff</color>
+    <color name="ic_background">#fff</color>
+    <color name="ic_foreground">#fff</color>
 </resources>
