@@ -32,6 +32,7 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 
 * Huawei P9 Lite VNS-L31 - Android 7.0
 * Huawei P10 VTR-L29 - Android 7.0
+* Samsung Galaxy Note 8 - Android 7.1
 * Samsung Galaxy S8 - Android 7.0
 * Samsung Galaxy A5 (2017) - Android 7.0
 * Samsung Galaxy A5 (2017) - Android 6.0
@@ -41,6 +42,7 @@ https://forum.xda-developers.com/android/apps-games/app-maskice-hr-web-shop-mobi
 * LG Spirit H440N - Android 6.0
 * Lenovo A Plus A1010a20 - Android 5.1
 * Doogee Y100 Pro - Android 5.1
+* Google Pixel XL (emulated) - Android 8.0
 * Google Pixel XL (emulated) - Android O Dev Release
 * Google Pixel XL (emulated) - Android 7.0
 * LG Nexus 5X (emulated) - Android 6.0
