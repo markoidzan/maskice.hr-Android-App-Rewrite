@@ -11,7 +11,7 @@ Amazon App Store - http://amzn.to/2xcnIPw
 
 Aptoide Store - http://bit.ly/2wKx8o4
 
-Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=745425885120756894
+Android File Host (Official Mirror) - https://www.androidfilehost.com/?fid=961840155545597637
 
 ## Istaknuto i na xda-developers forumu
 
