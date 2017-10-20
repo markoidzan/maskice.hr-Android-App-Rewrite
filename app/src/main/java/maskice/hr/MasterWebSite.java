@@ -52,7 +52,7 @@ public class MasterWebSite extends Fragment {
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if ((url.startsWith("http:") || url.startsWith("https:")) && Uri.parse(url).getHost().contains("maskice.hr")) {
+                if ((url.startsWith("http:") || url.startsWith("https:")) && Uri.parse(url).getHost().contains("maskice.hr") || Uri.parse(url).getHost().contains("google.com") || Uri.parse(url).getHost().contains("google.hr")) {
                     return false;
                 } else if (url.startsWith("tel:")) {
                     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(url));
