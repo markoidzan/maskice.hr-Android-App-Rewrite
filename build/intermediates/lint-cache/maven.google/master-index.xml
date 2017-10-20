@@ -30,4 +30,5 @@
   <android.arch.paging/>
   <com.crashlytics.sdk.android/>
   <io.fabric.sdk.android/>
+  <android.arch.persistence/>
 </metadata>
