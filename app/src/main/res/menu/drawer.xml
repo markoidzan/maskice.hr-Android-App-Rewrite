@@ -6,6 +6,10 @@
             android:checked="true"
             android:title="@string/pocetno"/>
         <item
+            android:id="@+id/trazilica"
+            android:checked="true"
+            android:title="@string/trazilica"/>
+        <item
             android:id="@+id/kosarica"
             android:title="@string/checkout"
             android:checked="true"/>
@@ -29,14 +33,14 @@
             android:id="@+id/slus"
             android:checked="true"
             android:title="@string/slusalice_zvucnik"/>
-        <item
+<!--        <item
             android:id="@+id/vr_naoc"
             android:checked="true"
             android:title="@string/vr"/>
         <item
             android:id="@+id/drone"
             android:title="@string/dron"
-            android:checked="true"/>
+            android:checked="true"/> -->
         <item
             android:id="@+id/gadgets"
             android:title="@string/gadget"
@@ -45,6 +49,10 @@
             android:id="@+id/pc_perif"
             android:title="@string/rac_oprema"
             android:checked="true"/>
+        <item
+            android:id="@+id/memorija"
+            android:checked="true"
+            android:title="@string/memorije" />
         <item
             android:id="@+id/other"
             android:title="@string/othr"
