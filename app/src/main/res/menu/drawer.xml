@@ -4,34 +4,42 @@
         <item
             android:id="@+id/pocetno"
             android:checked="true"
+            android:icon="@drawable/ic_home_black_36dp"
             android:title="@string/pocetno"/>
         <item
             android:id="@+id/trazilica"
             android:checked="true"
+            android:icon="@drawable/ic_search_black_36dp"
             android:title="@string/trazilica"/>
         <item
             android:id="@+id/kosarica"
             android:title="@string/checkout"
+            android:icon="@drawable/ic_shopping_cart_black_36dp"
             android:checked="true"/>
         <item
             android:id="@+id/mobitel"
             android:checked="true"
+            android:icon="@drawable/ic_stay_current_portrait_black_36dp"
             android:title="@string/mobitel"/>
         <item
             android:id="@+id/tablet"
             android:checked="true"
+            android:icon="@drawable/ic_tablet_android_black_36dp"
             android:title="@string/tablet"/>
         <item
             android:id="@+id/drzac_punjac"
             android:checked="true"
+            android:icon="@drawable/ic_battery_charging_50_black_36dp"
             android:title="@string/punjac_drzac"/>
         <item
             android:id="@+id/kamere"
             android:checked="true"
+            android:icon="@drawable/ic_videocam_black_36dp"
             android:title="@string/kamera"/>
         <item
             android:id="@+id/slus"
             android:checked="true"
+            android:icon="@drawable/ic_volume_up_black_36dp"
             android:title="@string/slusalice_zvucnik"/>
 <!--        <item
             android:id="@+id/vr_naoc"
@@ -44,33 +52,41 @@
         <item
             android:id="@+id/gadgets"
             android:title="@string/gadget"
+            android:icon="@drawable/ic_devices_other_black_36dp"
             android:checked="true"/>
         <item
             android:id="@+id/pc_perif"
+            android:icon="@drawable/ic_computer_black_36dp"
             android:title="@string/rac_oprema"
             android:checked="true"/>
         <item
             android:id="@+id/memorija"
             android:checked="true"
+            android:icon="@drawable/ic_sd_storage_black_36dp"
             android:title="@string/memorije" />
         <item
             android:id="@+id/other"
             android:title="@string/othr"
+            android:icon="@drawable/ic_adb_black_36dp"
             android:checked="true"/>
         <item
             android:id="@+id/about_us"
             android:title="@string/about"
+            android:icon="@drawable/ic_domain_black_36dp"
             android:checked="true"/>
         <item
             android:id="@+id/prod_mjesta"
+            android:icon="@drawable/ic_place_black_36dp"
             android:title="@string/poslovn"
             android:checked="true"/>
         <item
             android:id="@+id/veleprodaja"
+            android:icon="@drawable/ic_shop_two_black_36dp"
             android:title="@string/velepro"
             android:checked="true" />
         <item
             android:id="@+id/about_app"
+            android:icon="@drawable/ic_public_black_36dp"
             android:title="@string/oaplk"
             android:checked="true"/>
     </group>
