@@ -62,7 +62,7 @@
         <item
             android:id="@+id/memorija"
             android:checked="true"
-            android:icon="@drawable/ic_sd_storage_black_36dp"
+            android:icon="@drawable/ic_sd_card_black_36dp"
             android:title="@string/memorije" />
         <item
             android:id="@+id/other"
