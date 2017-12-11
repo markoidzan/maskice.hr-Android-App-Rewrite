@@ -188,16 +188,16 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 break; */
             case R.id.gadgets:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = Gadgeti.class;
+                fragmentClass = GadgetiMemorije.class;
                 break;
             case R.id.pc_perif:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = RacunalnaPeriferija.class;
                 break;
-            case R.id.memorija:
+            /*case R.id.memorija:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = Memorije.class;
-                break;
+                fragmentClass = Memorija.class;
+                break;*/
             case R.id.other:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = OstalaOprema.class;

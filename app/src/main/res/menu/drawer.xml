@@ -51,7 +51,7 @@
             android:checked="true"/> -->
         <item
             android:id="@+id/gadgets"
-            android:title="@string/gadget"
+            android:title="@string/gadgetmemorija"
             android:icon="@drawable/ic_devices_other_black_36dp"
             android:checked="true"/>
         <item
@@ -59,11 +59,11 @@
             android:icon="@drawable/ic_computer_black_36dp"
             android:title="@string/rac_oprema"
             android:checked="true"/>
-        <item
+        <!--<item
             android:id="@+id/memorija"
             android:checked="true"
             android:icon="@drawable/ic_sd_card_black_36dp"
-            android:title="@string/memorije" />
+            android:title="@string/memorije" />-->
         <item
             android:id="@+id/other"
             android:title="@string/othr"

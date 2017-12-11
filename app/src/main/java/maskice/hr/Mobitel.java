@@ -46,7 +46,7 @@ public class Mobitel extends Fragment {
             @Override
             public void onPageFinished(WebView view, String url) {
                 webStranica.loadUrl("javascript:(function(){" +
-                        "document.getElementsByClassName('mobile-nav nav nav-left')[0].style.display='none';" +
+                        "document.getElementsByClassName('header-main show-logo-center nav-dark')[0].style.display='none';" +
                         "})()");
             }
 
