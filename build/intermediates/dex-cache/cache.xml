@@ -3,6 +3,26 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\adca203a520517542a962f1c6060e705\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8c91982a6a309941f3f354825a374ea9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="25c8cb628374f9a2d59ff9e1172753751e9a9f84">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\59bd0a978bcdf73da6268f89f7392b92\jars\classes.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -10,6 +30,16 @@
         revision="25.0.3"
         sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
         <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.2\b9ef4342c934a1a8b107506273dc8061662a322\support-annotations-27.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\14.jar" />
     </item>
     <item
         is-multidex="false"
@@ -103,6 +133,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\5cdda3fd7ddb6c1683dd15b438422b99\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1132f39f6c841d4d49229b886dd59178\jars\classes.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -113,6 +153,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6c8e9f1cc7e543eb026c4faecafcfd5a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\76bf39b8e23b9dae568ef68592cd3a20\jars\classes.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -120,6 +170,36 @@
         revision="27.0.0"
         sha1="59cbbfb2937ebed98c8bb8882b7112d16358014e">
         <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\cfbf982c7699e7dd918d10d461df94a4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0bc83ef6c9dacdcb2c017d3d983bf15c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a5fa2e3704f51b30b7b47e12a3a2909728799583">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4230600eeed688ff480c4454a71d68d3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\16.jar" />
     </item>
     <item
         is-multidex="false"
@@ -203,6 +283,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\379153ded4b14017941d8cd7818f0f16\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -230,6 +320,16 @@
         revision="26.0.2"
         sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
         <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4ab5c53c04a56e1617e42819dfe32190\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="031cc16b7b6e77b3c050134ecab9fa5c2640a069">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -273,6 +373,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\12c4fb6679aa1c71aea18c3a49acd8a0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d267bf876642bf8fc0fda22b62945c9f\jars\classes.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -293,6 +403,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\d19990381fef0d7d1cdbecd1d5776630\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -300,6 +420,16 @@
         revision="27.0.0"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
         <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\9de75b15d31873c93a64fd2400ebc177\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9296d6f092fcdba4fafb6ac26546a39babdab46a">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\10.jar" />
     </item>
     <item
         is-multidex="false"
@@ -343,6 +473,16 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.3\7d7f60c4783872861222166f6164215f8951c7b1\common-1.0.3.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5f97ce7d9bb0fe0464c83a4b1f960136\jars\classes.jar"
         jumboMode="false"
         min-sdk-version="21"
@@ -350,6 +490,16 @@
         revision="25.0.3"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
         <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\0ae6ce714cc094e8e602a9e35f579735\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -430,6 +580,16 @@
         revision="26.0.2"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
         <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marko\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\a21a53c8cc7f51c2f23800adc2a359e9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="27.0.0"
+        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
+        <dex dex="C:\Users\marko\Documents\GitHub\maskice.hr\maskice.hr-Android-App-Rewrite\app\build\intermediates\transforms\preDex\release\6.jar" />
     </item>
     <item
         is-multidex="false"
