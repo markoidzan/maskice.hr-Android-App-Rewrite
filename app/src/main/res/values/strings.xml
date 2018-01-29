@@ -7,24 +7,22 @@
     <string name="pocetno">Naslovnica</string>
     <string name="mobitel">Oprema za mobitel</string>
     <string name="tablet">Oprema za tablet</string>
-    <string name="punjac_drzac">Držači i punjači</string>
-    <string name="slusalice_zvucnik">Slušalice i zvučnici</string>
+    <string name="drzaci">Adapteri i Držači</string>
+    <string name="punjaci">Punjači</string>
+    <string name="slusalice">Slušalice</string>
+    <string name="zvucnci">Zvučnici</string>
     <string name="kamera">Kamere</string>
-    <string name="vr">VR Naočale</string>
-    <string name="dron">Dronovi</string>
     <string name="rac_oprema">Računalna periferija</string>
     <string name="gadgetmemorija">Gadgeti i Memorije</string>
     <string name="about">O nama</string>
+    <string name="kontakt">Kontakt</string>
     <string name="poslovn">Prodajna mjesta</string>
     <string name="velepro">Veleprodaja</string>
     <string name="othr">Ostala oprema</string>
     <string name="checkout">Košarica</string>
     <string name="oaplk">O aplikaciji</string>
     <string name="refresh">Osvježi stranicu</string>
-    <string name="memorije">Memorija</string>
     <string name="trazilica">Pretraži stranicu</string>
-
-<!-- TODO: Remove or change this placeholder text -->
 
 
 </resources>

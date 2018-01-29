@@ -27,10 +27,10 @@
             android:icon="@drawable/ic_tablet_android_black_36dp"
             android:title="@string/tablet"/>
         <item
-            android:id="@+id/drzac_punjac"
+            android:id="@+id/drzaci"
             android:checked="true"
             android:icon="@drawable/ic_battery_charging_50_black_36dp"
-            android:title="@string/punjac_drzac"/>
+            android:title="@string/drzaci"/>
         <item
             android:id="@+id/kamere"
             android:checked="true"
@@ -40,15 +40,12 @@
             android:id="@+id/slus"
             android:checked="true"
             android:icon="@drawable/ic_volume_up_black_36dp"
-            android:title="@string/slusalice_zvucnik"/>
-<!--        <item
-            android:id="@+id/vr_naoc"
-            android:checked="true"
-            android:title="@string/vr"/>
+            android:title="@string/slusalice"/>
         <item
-            android:id="@+id/drone"
-            android:title="@string/dron"
-            android:checked="true"/> -->
+            android:id="@+id/zvucn"
+            android:checked="true"
+            android:icon="@drawable/ic_volume_up_black_36dp"
+            android:title="@string/zvucnci" />
         <item
             android:id="@+id/gadgets"
             android:title="@string/gadgetmemorija"
@@ -59,11 +56,6 @@
             android:icon="@drawable/ic_computer_black_36dp"
             android:title="@string/rac_oprema"
             android:checked="true"/>
-        <!--<item
-            android:id="@+id/memorija"
-            android:checked="true"
-            android:icon="@drawable/ic_sd_card_black_36dp"
-            android:title="@string/memorije" />-->
         <item
             android:id="@+id/other"
             android:title="@string/othr"

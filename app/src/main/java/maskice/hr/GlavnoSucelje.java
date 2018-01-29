@@ -11,10 +11,8 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.view.menu.ExpandedMenuView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.ExpandableListAdapter;
 
 /*
 
@@ -166,9 +164,9 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = Tablet.class;
                 break;
-            case R.id.drzac_punjac:
+            case R.id.drzaci:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = DrzaciPunjaci.class;
+                fragmentClass = Drzaci.class;
                 break;
             case R.id.kamere:
                 drawerLayout.closeDrawer(GravityCompat.START);
@@ -176,16 +174,8 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 break;
             case R.id.slus:
                 drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = SlusaliceZvucnici.class;
+                fragmentClass = Slusalice.class;
                 break;
-     /*       case R.id.drone:
-                drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = Dronovi.class;
-                break;
-            case R.id.vr_naoc:
-                drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = VrNaocale.class;
-                break; */
             case R.id.gadgets:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = GadgetiMemorije.class;
@@ -194,10 +184,6 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = RacunalnaPeriferija.class;
                 break;
-            /*case R.id.memorija:
-                drawerLayout.closeDrawer(GravityCompat.START);
-                fragmentClass = Memorija.class;
-                break;*/
             case R.id.other:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = OstalaOprema.class;
