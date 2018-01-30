@@ -134,9 +134,9 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
     }
 
     private void initView() {
-        NavigationView mDrawer = (NavigationView) findViewById(R.id.navigation_view);
+        NavigationView mDrawer = findViewById(R.id.navigation_view);
         mDrawer.setNavigationItemSelectedListener(this);
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        drawerLayout = findViewById(R.id.drawerLayout);
 
     }
 
