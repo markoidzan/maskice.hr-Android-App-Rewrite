@@ -1,85 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/pocetno"
-            android:checked="true"
-            android:icon="@drawable/ic_home_black_36dp"
-            android:title="@string/pocetno"/>
-        <item
-            android:id="@+id/trazilica"
-            android:checked="true"
-            android:icon="@drawable/ic_search_black_36dp"
-            android:title="@string/trazilica"/>
-        <item
-            android:id="@+id/kosarica"
-            android:title="@string/checkout"
-            android:icon="@drawable/ic_shopping_cart_black_36dp"
-            android:checked="true"/>
-        <item
-            android:id="@+id/mobitel"
-            android:checked="true"
-            android:icon="@drawable/ic_stay_current_portrait_black_36dp"
-            android:title="@string/mobitel"/>
-        <item
+    <group android:checkableBehavior="single" android:id="@+id/generalno">
+        <item android:title="@string/app_name" >
+            <menu >
+                <item
+                    android:id="@+id/homepage"
+                    android:checked="true"
+                    android:title="@string/pocetna" />
+                <item
+                    android:id="@+id/searchbox"
+                    android:checked="true"
+                    android:title="@string/pretraga" />
+                <item
+                    android:id="@+id/account"
+                    android:checked="true"
+                    android:title="@string/racun" />
+                <item
+                    android:id="@+id/cart"
+                    android:checked="true"
+                    android:title="@string/kosarica" />
+                <item
+                    android:id="@+id/contact"
+                    android:checked="true"
+                    android:title="@string/kontakt" />
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/phones"
+        android:checkableBehavior="single" >
+
+        <item android:title="@string/mobitel" >
+                <menu >
+                    <item
+                        android:id="@+id/phones_alcatel"
+                        android:checked="true"
+                        android:title="@string/alcatel" />
+                    <item
+                        android:id="@+id/phones_apple"
+                        android:checked="true"
+                        android:title="@string/apple" />
+                </menu>
+            </item>
+
+        </group>
+        <group
             android:id="@+id/tablet"
-            android:checked="true"
-            android:icon="@drawable/ic_tablet_android_black_36dp"
-            android:title="@string/tablet"/>
-        <item
-            android:id="@+id/drzaci"
-            android:checked="true"
-            android:icon="@drawable/ic_battery_charging_50_black_36dp"
-            android:title="@string/drzaci"/>
+            android:checkableBehavior="single"
+            android:title="@string/tablet">
+
+                <item
+                    android:id="@+id/tablet_case"
+                    android:checked="true"
+                    android:title="@string/tablet" />
+
+        </group>
         <item
             android:id="@+id/kamere"
             android:checked="true"
-            android:icon="@drawable/ic_videocam_black_36dp"
-            android:title="@string/kamera"/>
+            android:title="@string/kamera" />
+        <item
+            android:id="@+id/drzaci"
+            android:checked="true"
+            android:title="@string/drzaci" />
         <item
             android:id="@+id/slus"
             android:checked="true"
-            android:icon="@drawable/ic_volume_up_black_36dp"
-            android:title="@string/slusalice"/>
+            android:title="@string/slusalice" />
         <item
             android:id="@+id/zvucn"
             android:checked="true"
-            android:icon="@drawable/ic_volume_up_black_36dp"
             android:title="@string/zvucnci" />
         <item
             android:id="@+id/gadgets"
-            android:title="@string/gadgetmemorija"
-            android:icon="@drawable/ic_devices_other_black_36dp"
-            android:checked="true"/>
+            android:checked="true"
+            android:title="@string/gadgetmemorija" />
         <item
             android:id="@+id/pc_perif"
-            android:icon="@drawable/ic_computer_black_36dp"
-            android:title="@string/rac_oprema"
-            android:checked="true"/>
+            android:checked="true"
+            android:title="@string/rac_oprema" />
         <item
             android:id="@+id/other"
-            android:title="@string/othr"
-            android:icon="@drawable/ic_adb_black_36dp"
-            android:checked="true"/>
+            android:checked="true"
+            android:title="@string/othr" />
         <item
             android:id="@+id/about_us"
-            android:title="@string/about"
-            android:icon="@drawable/ic_domain_black_36dp"
-            android:checked="true"/>
+            android:checked="true"
+            android:title="@string/about" />
         <item
             android:id="@+id/prod_mjesta"
-            android:icon="@drawable/ic_place_black_36dp"
-            android:title="@string/poslovn"
-            android:checked="true"/>
+            android:checked="true"
+            android:title="@string/poslovn" />
         <item
             android:id="@+id/veleprodaja"
-            android:icon="@drawable/ic_shop_two_black_36dp"
-            android:title="@string/velepro"
-            android:checked="true" />
+            android:checked="true"
+            android:title="@string/velepro" />
         <item
             android:id="@+id/about_app"
-            android:icon="@drawable/ic_public_black_36dp"
-            android:title="@string/oaplk"
-            android:checked="true"/>
-    </group>
+            android:checked="true"
+            android:title="@string/oaplk" />
 </menu>

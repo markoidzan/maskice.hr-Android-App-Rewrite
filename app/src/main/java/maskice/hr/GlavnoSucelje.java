@@ -121,7 +121,7 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close);
         drawerToggle.syncState();
 
-        mSelectedId = savedInstanceState == null ? R.id.pocetno : savedInstanceState.getInt("SELECTED_ID");
+        mSelectedId = savedInstanceState == null ? R.id.homepage : savedInstanceState.getInt("SELECTED_ID");
         selectItem(mSelectedId);
 
     }
@@ -144,19 +144,19 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
         Fragment fragement = null;
         Class fragmentClass = null;
         switch (mSelectedId) {
-            case R.id.pocetno:
+            case R.id.homepage:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = MasterWebSite.class;
                 break;
-            case R.id.trazilica:
+            case R.id.searchbox:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = Pretraga.class;
                 break;
-            case R.id.kosarica:
+            case R.id.cart:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = Kosarica.class;
                 break;
-            case R.id.mobitel:
+            case R.id.phones_alcatel:
                 drawerLayout.closeDrawer(GravityCompat.START);
                 fragmentClass = Mobitel.class;
                 break;

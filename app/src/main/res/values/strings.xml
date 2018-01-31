@@ -2,11 +2,24 @@
 <resources>
 
     <string name="app_name">maskice.hr</string>
+
     <string name="drawer_open">otvori</string>
     <string name="drawer_close">zatvori</string>
-    <string name="pocetno">Naslovnica</string>
+
+    <string name="pocetna">Naslovnica</string>
+    <string name="pretraga">Pretraži stranicu</string>
+    <string name="racun">Moj račun</string>
+    <string name="kosarica">Košarica</string>
+    <string name="kontakt">Kontakt</string>
+
     <string name="mobitel">Oprema za mobitel</string>
+    <string name="alcatel">Alcatel</string>
+    <string name="apple">Apple</string>
+
+
     <string name="tablet">Oprema za tablet</string>
+
+
     <string name="drzaci">Adapteri i Držači</string>
     <string name="punjaci">Punjači</string>
     <string name="slusalice">Slušalice</string>
@@ -15,14 +28,11 @@
     <string name="rac_oprema">Računalna periferija</string>
     <string name="gadgetmemorija">Gadgeti i Memorije</string>
     <string name="about">O nama</string>
-    <string name="kontakt">Kontakt</string>
     <string name="poslovn">Prodajna mjesta</string>
     <string name="velepro">Veleprodaja</string>
     <string name="othr">Ostala oprema</string>
-    <string name="checkout">Košarica</string>
     <string name="oaplk">O aplikaciji</string>
     <string name="refresh">Osvježi stranicu</string>
-    <string name="trazilica">Pretraži stranicu</string>
 
 
 </resources>
