@@ -9,10 +9,18 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ExpandableListView;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 /*
 
@@ -101,12 +109,18 @@ import android.view.MenuItem;
 
  */
 
-public class GlavnoSucelje extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class GlavnoSucelje extends AppCompatActivity
+//        implements NavigationView.OnNavigationItemSelectedListener
+{
 
-    private Toolbar toolbar;
+    //private Toolbar toolbar;
     private DrawerLayout drawerLayout;
-    private ActionBarDrawerToggle drawerToggle;
-    private int mSelectedId;
+    ExpandableListAdapter menuAdapter;
+    ExpandableListView expandableList;
+    List<ExpandedMenuModel> listDataHeader;
+    HashMap<ExpandedMenuModel, List<String>> listDataChild;
+//    private ActionBarDrawerToggle drawerToggle;
+//    private int mSelectedId;
 
 
     @Override
@@ -114,33 +128,104 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prikaz_weba);
 
-        setToolbar();
+        final ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
-        initView();
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        expandableList = (ExpandableListView) findViewById(R.id.navigationmenu);
 
-        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close);
-        drawerToggle.syncState();
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
 
-        mSelectedId = savedInstanceState == null ? R.id.homepage : savedInstanceState.getInt("SELECTED_ID");
-        selectItem(mSelectedId);
+        if (navigationView != null) {
+            setupDrawerContent(navigationView);
+        }
+
+        prepareListData();
+        menuAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild, expandableList);
+
+        expandableList.setAdapter(menuAdapter);
+
+        expandableList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {
+                return false;
+            }
+        });
+
+        expandableList.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
+                return false;
+            }
+        });
 
     }
 
-    private void setToolbar() {
+    private void prepareListData() {
+
+        listDataHeader = new ArrayList<ExpandedMenuModel>();
+        listDataChild = new HashMap<ExpandedMenuModel, List<String>>();
+
+        ExpandedMenuModel homepage = new ExpandedMenuModel();
+        homepage.setIconImg(android.R.drawable.ic_delete);
+        listDataHeader.add(homepage);
+
+        ExpandedMenuModel search = new ExpandedMenuModel();
+        search.setIconImg(android.R.drawable.ic_delete);
+        listDataHeader.add(search);
+
+        List<String> mobitel = new ArrayList<String>();
+        mobitel.add("Alcatel");
+        mobitel.add("Apple");
+
+        listDataChild.put(listDataHeader.get(0), (List<String>) homepage);
+        listDataChild.put(listDataHeader.get(1), (List<String>) search);
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu (Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                drawerLayout.openDrawer(GravityCompat.START);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void setupDrawerContent(NavigationView navigationView) {
+        //revision: this don't works, use setOnChildClickListener() and setOnGroupClickListener() above instead
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        menuItem.setChecked(true);
+                        drawerLayout.closeDrawers();
+                        return true;
+                    }
+                });
+    }
+
+    /*private void setToolbar() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
             setSupportActionBar(toolbar);
         }
-    }
+    }*/
 
-    private void initView() {
+   /* private void initView() {
         NavigationView mDrawer = findViewById(R.id.navigation_view);
         mDrawer.setNavigationItemSelectedListener(this);
         drawerLayout = findViewById(R.id.drawerLayout);
 
-    }
+    }*/
 
-    private void selectItem(int mSelectedId) {
+   /* private void selectItem(int mSelectedId) {
         Fragment fragement = null;
         Class fragmentClass = null;
         switch (mSelectedId) {
@@ -215,15 +300,15 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragement).commit();
     }
+*/
 
-
-    @Override
+   /* @Override
     public void onConfigurationChanged(Configuration novaKonfiguracija) {
         super.onConfigurationChanged(novaKonfiguracija);
         drawerToggle.onConfigurationChanged(novaKonfiguracija);
-    }
+    }*/
 
-    @Override
+   /* @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         menuItem.setChecked(true);
         mSelectedId = menuItem.getItemId();
@@ -236,5 +321,5 @@ public class GlavnoSucelje extends AppCompatActivity implements NavigationView.O
         super.onSaveInstanceState(outState, outPersistentState);
         //save selected item so it will remains same even after orientation change
         outState.putInt("SELECTED_ID", mSelectedId);
-    }
+    }*/
 }
