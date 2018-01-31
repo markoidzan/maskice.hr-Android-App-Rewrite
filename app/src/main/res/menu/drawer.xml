@@ -47,13 +47,22 @@
         </group>
         <group
             android:id="@+id/tablet"
-            android:checkableBehavior="single"
-            android:title="@string/tablet">
+            android:checkableBehavior="single">
+            <item android:title="@string/tablet">
 
-                <item
-                    android:id="@+id/tablet_case"
-                    android:checked="true"
-                    android:title="@string/tablet" />
+                <menu>
+
+                    <item
+                        android:id="@+id/tablet_case"
+                        android:checked="true"
+                        android:title="@string/tablet_case" />
+
+                </menu>
+
+
+            </item>
+
+
 
         </group>
         <item
